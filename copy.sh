@@ -7,5 +7,5 @@ fi
 
 for id in `cat stu_id.txt`
 do
-    cp $1 $id.ipynb
+    cp $1 exp_$id.ipynb
 done
